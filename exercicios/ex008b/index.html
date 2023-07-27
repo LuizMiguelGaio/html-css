@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-Fonte / Pre-Formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em JavaScript.</p> <!--"code" Transforma em fonte mono espaçada, melhor pra ler códigos.-->
+    <pre>
+        <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0
+            print(f'O numero {num} é PAR')
+        else:
+            print(f'O número {num} é IMPAR')
+        print('Fim do programa') <!--Shift+TAB corrige tabulação pra esquerda, e se quiser voltar pra direita, seleciona e aperta TAB-->
+        </code>
+    </pre> <!-- o PRE identa o "codigo" dentro da tag CODE, pois sem ele fica escrito por extenso-->
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q> <!--a tag Q é de quote, é bom usar para dar sentido a citação.--> </p>
+    <h2>Citações completas</h2>
+    <p>Segundo Mauricio Samy, no seu livro Fundamentos de HTML5 e CSS3:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        hypertexto é todo texto inserido em um documento para a web e que tem como principal carácteristica a possibilidade de se interligar a outros documentos da web com uso dos nossos já conhecidos links.
+    </blockquote> 
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em html.</bdo></p>
+</body>
+</html>
